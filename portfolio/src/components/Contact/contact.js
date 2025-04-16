@@ -41,10 +41,10 @@ const Contact = () => {
 
         {/* Social Icons Section */}
         <div className="socialIcons">
-          <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/profile.php?id=100036953027628" target="_blank" rel="noopener noreferrer">
             <img src={Facebook} alt="Facebook" className="socialIcon" />
           </a>
-          <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/mr__unique_ankitkumar4954/" target="_blank" rel="noopener noreferrer">
             <img src={Instagram} alt="Instagram" className="socialIcon" />
           </a>
           <a href="tel:8707538123">
