@@ -40,14 +40,12 @@ const Navbar = () => {
     Resume
 </button>
 
-            {/* Mobile Menu Icon */}
             <img src={menu} alt="Menu" className='mobMenu' onClick={() => setShowMenu(!showMenu)} />
 
-            {/* Mobile Nav Menu */}
             <div className="navMenu" style={{ display: showMenu ? 'flex' : 'none' }}>
-                <Link activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Home</Link>
-                <Link activeClass='active' to='about' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)}>About</Link>
-                <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Project</Link>
+                <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Home</Link>
+                <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)}>About</Link>
+                <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Project</Link>
                 <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Contact</Link>
                 <a
                     href="https://drive.google.com/file/d/1k9nnMbEITRUGn8xNQxyFbaYHfZ2IlUw_/view?usp=drive_link"

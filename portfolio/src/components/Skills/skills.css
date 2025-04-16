@@ -87,4 +87,8 @@
     .skillBarText>h2 {
         font-size: 5vw;
     }
+    .skillIcons{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
