@@ -13,7 +13,7 @@ const projects = [
         description: "A productivity app to manage your tasks efficiently.",
         github: "https://github.com/Ankit1141192/todoistConstructWeak",
         deploy: "https://bright-cendol-1e0307.netlify.app",
-        techStack: ["HTML", "CSS", "JavaScript"]
+        techStack: ["HTML", "CSS", "JavaScript","LocalStorage","github"]
     },
     {
         img: Portfolio2,
@@ -21,7 +21,7 @@ const projects = [
         description: "A platform for citizens to report traffic problems.",
         github: "https://github.com/Sadafff19/Team_4347_hackathon",
         deploy: "https://4347-hackthon.netlify.app",
-        techStack: ["React", "Chakra UI", "JavaScript", "REST API"]
+        techStack: ["HTML", "CSS", "JavaScript","LocalStorage","github"]
     },
     {
         img: Portfolio3,
@@ -29,7 +29,7 @@ const projects = [
         description: "An ecommerce platform for modern shopping experiences.",
         github: "https://github.com/Ankit1141192/The-Coding-Crusaders",
         deploy: "#",
-        techStack: ["HTML", "CSS", "JavaScript", "LocalStorage"]
+        techStack: ["React", "CSS", "ChakraUi", "FirebaseAuthuntication","github"]
     },
     {
         img: Portfolio4,
@@ -37,7 +37,7 @@ const projects = [
         description: "A social networking app inspired by LinkedIn.",
         github: "https://github.com/Ankit1141192/cunstructWeakProject",
         deploy: "#",
-        techStack: ["React", "Redux", "Firebase", "CSS Modules"]
+        techStack: ["Html", "JavaScrript","CSS", ":LocalStorage","github" ]
     },
     {
         img: Portfolio5,
@@ -45,7 +45,7 @@ const projects = [
         description: "A mobile-friendly online store with advanced features.",
         github: "https://github.com/Ankit1141192/ReactNativeProject",
         deploy: "#",
-        techStack: ["React Native", "JavaScript", "Expo"]
+        techStack: ["React Native", "JavaScript", "Expo","FirebaseAuth","AsyncStorage","github"]
     }
 ];
 
