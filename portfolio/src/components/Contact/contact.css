@@ -82,7 +82,7 @@
     border-radius: 0.5rem;
     background: rgb(40, 40, 40);
 }
-.btn {
+.btn1 {
     padding: 0.7rem 1rem;
     border: none;
     margin: 10px;
@@ -93,7 +93,7 @@
     transition: background 0.3s ease;
 }
 
-.btn:hover {
+.btn1:hover {
     background: #5a738d;
 }
 
