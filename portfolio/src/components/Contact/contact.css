@@ -90,6 +90,19 @@
     margin: 2rem;
     padding: 0.75rem 3.5rem;
 }
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #333537;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #5a738d;
+}
 
 .links {
     display: flex;
