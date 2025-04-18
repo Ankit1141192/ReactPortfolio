@@ -95,7 +95,7 @@ const Contact = () => {
             className='msg' 
             required
           ></textarea>
-          <button type="submit" className='submitBtn'>Submit</button>
+          <button type="submit" className='btn'>Submit</button>
         </form>
 
         <span id="msg" className="formStatusMessage">{message}</span>
