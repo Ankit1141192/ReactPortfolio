@@ -26,8 +26,8 @@ const Navbar = () => {
             </div>
 
             {/* Resume Button */}
-            <button
-    className="desktopMenuBtn"
+            <button 
+    className="btn1"
     onClick={() =>
         window.open(
             "https://drive.google.com/file/d/1k9nnMbEITRUGn8xNQxyFbaYHfZ2IlUw_/view?usp=drive_link",
