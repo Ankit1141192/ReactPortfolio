@@ -96,7 +96,7 @@
 }
 
 .btn1:hover {
-  background-color:aqua;
+  background-color:#ffc;
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
