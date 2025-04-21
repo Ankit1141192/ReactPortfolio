@@ -6,7 +6,7 @@ import Facebook from "../../assets/facebook-icon.png";
 import Instagram from "../../assets/instagram.png";
 import LinkedIn from "../../assets/linkedIn.svg";
 import EmailIcon from "../../assets/gmail-svgrepo-com.svg";
-import GitHub from "../../assets/github-142-svgrepo-com.svg";
+import GitHub from "../../assets/github-svgrepo-com.svg";
 import Phone from "../../assets/phone-calling-rounded-svgrepo-com.svg";
 
 const Contact = () => {
