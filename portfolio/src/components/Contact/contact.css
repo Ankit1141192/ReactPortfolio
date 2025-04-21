@@ -82,7 +82,7 @@
     border-radius: 0.5rem;
     background: rgb(40, 40, 40);
 }
-/* .btn1 {
+.btn1 {
    background: white;
     color: black;
   padding: 0.75rem 1.5rem;
@@ -104,60 +104,7 @@
 .btn1:active {
   transform: translateY(0);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-} */
-.btn1 {
-      background-color: #2d6d8d;
-      color: white;
-      padding: 0.7rem 1.5rem;
-      font-size: 1rem;
-      font-weight: 600;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: background-color 0.3s ease, box-shadow 0.2s ease;
-    }
-
-    .btn1:hover {
-      background-color: #3c3c3c;
-      box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
-    }
-
-    .btn1:focus {
-      outline: none;
-      box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1);
-    }
-/* .btn-3d-gradient {
-      background: linear-gradient(to right, #4f46e5, #4338ca);
-      background-size: 200% auto;
-      color: white;
-      border: none;
-      padding: 1rem 2.5rem;
-      font-size: 1.1rem;
-      font-weight: 600;
-      border-radius: 12px;
-      box-shadow: 0 6px 0 #3730a3;
-      cursor: pointer;
-      transition: transform 0.2s ease, box-shadow 0.2s ease, background-position 0.5s ease;
-      position: relative;
-    }
-
-    .btn-3d-gradient:hover {
-      background-position: right center;
-      transform: translateY(-3px);
-      box-shadow: 0 8px 0 #3730a3;
-    }
-
-    .btn-3d-gradient:active {
-      transform: translateY(4px);
-      box-shadow: 0 2px 0 #3730a3;
-    }
-
-    .btn-3d-gradient:focus {
-      outline: none;
-      box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.4);
-    } */
-
-
+}
 .links {
     display: flex;
     flex-wrap: wrap;
