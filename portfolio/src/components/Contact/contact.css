@@ -95,7 +95,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.btn1:hover {
+/* .btn1:hover {
   background-color:#ffc;
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
@@ -109,11 +109,35 @@
       outline: none;
       box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1);
     }
- 
+  */
 .links {
     display: flex;
     flex-wrap: wrap;
 }
+.btn1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #1f2937; /* gray-800 */
+  background-color: white;
+  border: 1px solid rgba(107, 114, 128, 0.3); /* gray-500/30 */
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn1:hover {
+  color: #60a5fa; /* blue-400 */
+  background-color: rgba(96, 165, 250, 0.1); /* blue-400/10 */
+  border-color: rgba(96, 165, 250, 0.3); /* blue-400/30 */
+}
+
+.btn1:active {
+  transform: scale(0.95);
+}
+
 
 .link {
     object-fit: cover;

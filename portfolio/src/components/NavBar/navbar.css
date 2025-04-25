@@ -26,6 +26,33 @@
 a{
     color: whitesmoke;
 }
+.resume-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #1f2937; 
+    background-color: white;
+    border: 1px solid rgba(107, 114, 128, 0.3); /* gray-500/30 */
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  
+  .resume-button:hover {
+    color: #60a5fa; 
+    background-color: rgba(96, 165, 250, 0.1); /* blue-400/10 */
+    border-color: rgba(96, 165, 250, 0.3); /* blue-400/30 */
+  }
+  
+  .resume-button:active {
+    transform: scale(0.95);
+  }
+  
+  .resume-icon {
+    display: inline-block;
+  }
 
 .desktopMenuListItem:hover {
     color: rgb(167, 167, 117);
@@ -105,6 +132,9 @@ a{
     .mobMenu {
         display: flex;
     }
+    .resume-button{
+        display: none;
+    }
     .desktopMenu {
         display: none;
     }
@@ -112,3 +142,6 @@ a{
         display: none;
     }
 }
+
+  
+  

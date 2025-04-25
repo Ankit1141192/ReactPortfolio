@@ -5,6 +5,7 @@ import Portfolio2 from '../../assets/trafficIssue.png';
 import Portfolio3 from '../../assets/Homorax.png';
 import Portfolio4 from '../../assets/LinkedinClone.png';
 import Portfolio5 from '../../assets/Shopnetic.jpeg';
+import Portfolio6 from '../../assets/portfolio-7.png';
 
 const projects = [
     {
@@ -24,6 +25,23 @@ const projects = [
         techStack: ["HTML", "CSS", "JavaScript","LocalStorage","github"]
     },
     {
+        img: Portfolio4,
+        title: "LinkedIn Clone",
+        description: "A social networking app inspired by LinkedIn.",
+        github: "https://github.com/Ankit1141192/cunstructWeakProject",
+        deploy: "#",
+        techStack: ["Html", "JavaScrript","CSS", ":LocalStorage","github" ]
+    }
+    ,{
+        img: Portfolio6,
+        title: "Quick Stay",
+        description: "A hotel booking platform with a user-friendly interface.",
+        github: "https://github.com/Ankit1141192/QuickStay",
+        deploy:"https://quick-stay-xi.vercel.app/",
+        techStack: ["React+Vite", "TailwindCSS","clerkAuth","github"]
+
+    },
+    {
         img: Portfolio3,
         title: "Homorax",
         description: "An ecommerce platform for modern shopping experiences.",
@@ -31,14 +49,7 @@ const projects = [
         deploy: "#",
         techStack: ["React", "CSS", "ChakraUi", "FirebaseAuthuntication","github"]
     },
-    {
-        img: Portfolio4,
-        title: "LinkedIn Clone",
-        description: "A social networking app inspired by LinkedIn.",
-        github: "https://github.com/Ankit1141192/cunstructWeakProject",
-        deploy: "#",
-        techStack: ["Html", "JavaScrript","CSS", ":LocalStorage","github" ]
-    },
+   
     {
         img: Portfolio5,
         title: "Shopnetic",
@@ -47,6 +58,7 @@ const projects = [
         deploy: "#",
         techStack: ["React Native", "JavaScript", "Expo","FirebaseAuth","AsyncStorage","github"]
     }
+    
 ];
 
 const Works = () => {

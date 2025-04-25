@@ -9,6 +9,7 @@ import JavaScript from '../svg/javascript.svg';
 import TypeScript from '../svg/typescript.svg'; 
 import Reactl from '../svg/react.svg';
 import FireBase from "../svg/firebase.svg";
+import Tailwind from "../svg/tailwind-css.svg";
 
 const Skills = () => {
     return (
@@ -29,6 +30,7 @@ const Skills = () => {
                 <img src={TypeScript} alt="TypeScript" className="skillIcon" />
                 <img src={Reactl} alt="React" className="skillIcon" />
                 <img src={FireBase} alt="Firebase" className="skillIcon" />
+                <img src={Tailwind} alt="Tailwind CSS" className="skillIcon" />
             </div>
 
             <div className="skillBars">
