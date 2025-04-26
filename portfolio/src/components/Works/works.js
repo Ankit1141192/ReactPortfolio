@@ -37,7 +37,7 @@ const projects = [
         title: "Quick Stay",
         description: "A hotel booking platform with a user-friendly interface.",
         github: "https://github.com/Ankit1141192/QuickStay",
-        deploy:"https://quick-stay-xi.vercel.app/",
+        deploy:"https://stayver.vercel.app/",
         techStack: ["React+Vite", "TailwindCSS","clerkAuth","github"]
 
     },
