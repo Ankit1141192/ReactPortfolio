@@ -34,7 +34,7 @@ const projects = [
     }
     ,{
         img: Portfolio6,
-        title: "Quick Stay",
+        title: "Stayver",
         description: "A hotel booking platform with a user-friendly interface.",
         github: "https://github.com/Ankit1141192/QuickStay",
         deploy:"https://stayver.vercel.app/",
