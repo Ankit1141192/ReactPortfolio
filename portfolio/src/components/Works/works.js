@@ -98,14 +98,14 @@ const Works = () => {
                 Explore a collection of my professional projects demonstrating practical problem-solving and technical expertise.
             </span>
 
-            <h3 className="projectCategory">🌐 Web Projects</h3>
+            <h3 className="projectCategory">Web Projects</h3>
             <div className="worksImgs">
                 {webProjects.map((project, index) => (
                     <ProjectCard key={index} project={project} />
                 ))}
             </div>
 
-            <h3 className="projectCategory">📱 Mobile Apps</h3>
+            <h3 className="projectCategory">Mobile Apps</h3>
             <div className="worksImgs">
                 {mobileProjects.map((project, index) => (
                     <ProjectCard key={index} project={project} />
