@@ -19,7 +19,7 @@ const Intro = () => {
 
                 <div className="introBtns">
                     <a
-                        href="https://drive.google.com/file/d/1Gj9UCRcXoY7tQgNZFVk3iZ2IzpNoH19R/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1u12VQo7UlR_64m9-lU0Zc4DbgASlWDQS/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
