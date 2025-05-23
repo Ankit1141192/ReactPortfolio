@@ -26,7 +26,7 @@ const Navbar = () => {
             </div>
 
             {/* Resume Button */}
-            <a href="https://drive.google.com/file/d/1k9nnMbEITRUGn8xNQxyFbaYHfZ2IlUw_/view?usp=drive_link"
+            <a href="https://drive.google.com/file/d/1Gj9UCRcXoY7tQgNZFVk3iZ2IzpNoH19R/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="resume-button">
